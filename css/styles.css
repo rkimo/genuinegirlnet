@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* CSS Document */
+.rikkilogo {
+	height: 90%;
+	max-height: 495px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+body {
+	}
+
+
+
+
+
+
+#containter {
+	width:50%;
+	float:left;
+	}
+
+#containter2 {
+	width:50%;
+	float:left; 
+	}
+#all {
+	max-width:20000px;
+	margin:0 auto;
+	}
+
+	#smallerscreen {
+		display:none;
+	}
+	
+	
+
+
+
+
+
+
+
+
+
+@media (min-width: 830px) and (max-width: 1000px){
+	body {
+		}
+	#containter {
+	width:50%;
+	float:none;
+	}
+
+#containter2 {
+	margin-top:2%;
+	width:50%;
+	float:none; 
+	}
+	#smallerscreen {
+		display:none;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 830px){
+	#containter {
+	display:none;
+	}
+
+#containter2 {
+		display:none;
+
+	}
+#all {
+		display:none;
+
+	}
+#smallerscreen {
+	display:block;
+	}
+	
+}
